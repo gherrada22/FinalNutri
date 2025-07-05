@@ -43,7 +43,7 @@ const Product = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-primary/10 rounded-3xl transform rotate-3 scale-105"></div>
               <img 
-                src="/lovable-uploads/10511746-82d2-4219-a59e-b5a744b27998.png"
+                src="/public/productonuevo.png"
                 alt="Nutriblitz Superfood Shake"
                 className="relative z-10 w-full h-auto rounded-2xl shadow-strong"
               />

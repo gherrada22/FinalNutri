@@ -66,7 +66,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl scale-110 animate-pulse"></div>
               <img 
-                src="/lovable-uploads/10511746-82d2-4219-a59e-b5a744b27998.png"
+                src="/public/productonuevo.png"
                 alt="Nutriblitz Superfood Shake"
                 className="relative z-10 max-w-md w-full h-auto drop-shadow-2xl transform hover:scale-105 transition-transform duration-500"
               />

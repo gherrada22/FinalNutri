@@ -85,7 +85,7 @@ const About = () => {
           
           <div className="animate-fade-in">
             <img 
-              src="/lovable-uploads/044e7496-3041-4e51-8c28-40c53067e3fb.png"
+              src="/public/logo.png"
               alt="Nutriblitz Bowl"
               className="w-full h-auto rounded-2xl shadow-strong transform hover:scale-105 transition-transform duration-500"
             />

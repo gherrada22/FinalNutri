@@ -8,7 +8,7 @@ const Recipes = () => {
     {
       id: 1,
       title: "Smoothie Bowl Energético",
-      image: "/lovable-uploads/5ee152b0-600c-4ab1-b971-4dfa542839d7.png",
+      image: "/public/principal.png",
       time: "3 min",
       servings: "1 persona",
       difficulty: "Fácil",
@@ -30,7 +30,7 @@ const Recipes = () => {
     {
       id: 2,
       title: "Shake Tropical Proteico",
-      image: "/lovable-uploads/d96ddbd0-80b7-4c6d-91ee-54006c45dc56.png",
+      image: "/public/receta1.png",
       time: "2 min",
       servings: "1 persona",
       difficulty: "Muy Fácil",
@@ -52,7 +52,7 @@ const Recipes = () => {
     {
       id: 3,
       title: "Bowl de Chocolate y Fresas",
-      image: "/lovable-uploads/790ca6b2-f534-4c0d-8ad7-353d61493e1d.png",
+      image: "/public/receta2.png",
       time: "5 min",
       servings: "1 persona",
       difficulty: "Fácil",

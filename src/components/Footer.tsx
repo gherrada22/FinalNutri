@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/adfaf587-6bb7-420a-80e9-90d095532732.png" 
+                src="/public/logo.png"  
                 alt="Nutriblitz" 
                 className="h-12 w-auto brightness-0 invert"
               />
