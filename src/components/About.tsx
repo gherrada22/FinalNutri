@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button';
+import { Button } from '../components/ui/button';
 import { Leaf, Clock, Heart, Award } from 'lucide-react';
 
 const About = () => {
