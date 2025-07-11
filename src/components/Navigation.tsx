@@ -6,12 +6,12 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { name: 'Inicio', href: '#inicio' },
-    { name: 'Nosotros', href: '#nosotros' },
-    { name: 'Producto', href: '#producto' },
-    { name: 'Recetas', href: '#recetas' },
-    { name: 'Testimonios', href: '#testimonios' },
-    { name: 'Contacto', href: '#contacto' },
+    { name: 'Home', href: '#inicio' },
+    { name: 'About Us', href: '#nosotros' },
+    { name: 'Product', href: '#producto' },
+    { name: 'Recipes', href: '#recetas' },
+    { name: 'Testimonials', href: '#testimonios' },
+    { name: 'Contacts', href: '#contacto' },
   ];
 
   return (
@@ -39,7 +39,7 @@ const Navigation = () => {
               </a>
             ))}
             <Button variant="hero" size="lg">
-              Comprar Ahora
+              Buy Now
             </Button>
           </div>
 

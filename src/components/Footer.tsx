@@ -14,17 +14,17 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
-    { name: 'Inicio', href: '#inicio' },
-    { name: 'Nosotros', href: '#nosotros' },
-    { name: 'Producto', href: '#producto' },
-    { name: 'Recetas', href: '#recetas' }
+    { name: 'Home', href: '#inicio' },
+    { name: 'About Us', href: '#nosotros' },
+    { name: 'Product', href: '#producto' },
+    { name: 'Recipes', href: '#recetas' }
   ];
 
   const supportLinks = [
-    { name: 'Testimonios', href: '#testimonios' },
-    { name: 'Contacto', href: '#contacto' },
-    { name: 'Política de Privacidad', href: '#' },
-    { name: 'Términos y Condiciones', href: '#' }
+    { name: 'Testimonials', href: '#testimonios' },
+    { name: 'Contacts', href: '#contacto' },
+    { name: 'Privacy Policy', href: '#' },
+    { name: 'Terms and Conditions', href: '#' }
   ];
 
   return (
@@ -145,7 +145,7 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex items-center text-sm text-secondary-foreground/60">
-            <span>© {currentYear} Nutriblitz. Todos los derechos reservados.</span>
+            <span>© {currentYear} Nutriblitz. All rights reserved.</span>
           </div>
           
           <div className="flex items-center text-sm text-secondary-foreground/60">

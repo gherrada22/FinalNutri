@@ -26,37 +26,34 @@ const Hero = () => {
           {/* Text Content */}
           <div className="text-center lg:text-left animate-slide-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Energía Natural Para 
-              <span className="text-primary-light block">Tu Día Perfecto</span>
+              Natural Energy For
+              <span className="text-primary-light block">Your Perfect Day</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-              Descubre la fuerza de los superalimentos con nuestro shake nutritivo premium. 
-              <strong> Cacao, Maca, Avena y Plátano</strong> en una mezcla perfecta.
-            </p>
+            
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <Button variant="hero" size="xl" className="bg-white text-primary hover:bg-white/90">
                 <Zap className="mr-2" size={20} />
-                Comprar Ahora - S/ 25
+                Buy Now - S/ 25
               </Button>
               <Button variant="outline-primary" size="xl" className="border-white text-white hover:bg-white hover:text-primary">
-                Ver Recetas
+              See Recipes
               </Button>
             </div>
 
             <div className="flex items-center justify-center lg:justify-start space-x-8 text-white/80">
               <div className="text-center">
                 <div className="font-bold text-2xl text-white">100%</div>
-                <div className="text-sm">Orgánico</div>
+                <div className="text-sm">Organic</div>
               </div>
               <div className="text-center">
                 <div className="font-bold text-2xl text-white">0</div>
-                <div className="text-sm">Preservantes</div>
+                <div className="text-sm">Preservatives</div>
               </div>
               <div className="text-center">
                 <div className="font-bold text-2xl text-white">+12</div>
-                <div className="text-sm">Vitaminas</div>
+                <div className="text-sm">Vitamins</div>
               </div>
             </div>
           </div>
@@ -66,7 +63,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl scale-110 animate-pulse"></div>
               <img 
-                src="/public/productonuevo.png"
+                src="/public/image.png"
                 alt="Nutriblitz Superfood Shake"
                 className="relative z-10 max-w-md w-full h-auto drop-shadow-2xl transform hover:scale-105 transition-transform duration-500"
               />
