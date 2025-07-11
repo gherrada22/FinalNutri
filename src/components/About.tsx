@@ -6,22 +6,22 @@ const About = () => {
     {
       icon: <Leaf className="text-primary" size={32} />,
       title: "100% Natural",
-      description: "Ingredientes premium sin aditivos artificiales ni conservantes"
+      description: "Premium ingredients no artificial additives no preservatives"
     },
     {
       icon: <Clock className="text-primary" size={32} />,
-      title: "Listo en Segundos",
-      description: "Solo mezcla 1-2 cucharadas con agua o leche para un shake perfecto"
+      title: "Ready in seconds",
+      description: "Just mix 1 - 2 tablespoons of the powder with water or milk for a ready shaker"
     },
     {
       icon: <Heart className="text-primary" size={32} />,
-      title: "Nutrición Completa",
-      description: "Vitaminas B12, D y minerales como hierro y magnesio"
+      title: "Complete nutrition",
+      description: "Enriched formula rich in essential nutrients such as vitamin (B12, D) and minerals (iron, magnesium) "
     },
     {
       icon: <Award className="text-primary" size={32} />,
-      title: "Calidad Premium",
-      description: "Superalimentos seleccionados: cacao, maca, avena y plátano"
+      title: "Premium quality",
+      description: "Superfoods: cacao and maca"
     }
   ];
 
@@ -72,7 +72,7 @@ const About = () => {
               <strong className="text-1xl font-bold text-foreground mb-6"> "NUTRIBLITZ</strong> is more than a supplement: <strong className="text-1xl font-bold text-foreground mb-6"> it is a strategic ally for an active and balanced lifestyle"</strong>
             </p>
             <Button variant="hero" size="lg">
-              Conoce Más Sobre Nosotros
+            Learn More About Us
             </Button>
           </div>
 
@@ -88,13 +88,13 @@ const About = () => {
         {/* Social Responsibility */}
         <div className="mt-20 text-center bg-primary/5 rounded-2xl p-12">
           <h3 className="text-3xl font-bold text-foreground mb-6">
-            Compromiso Social
+          Social commitment
           </h3>
           <p className="text-muted-foreground max-w-3xl mx-auto leading-relaxed text-lg">
-            En <strong className="text-primary">NUTRIBLITZ</strong>, creemos en la responsabilidad social y el
-            impacto positivo en nuestras comunidades. Trabajamos directamente con productores locales de superalimentos,
-            garantizando comercio justo y sostenible. Parte de nuestras ganancias se destinan a programas de nutrición
-            infantil en comunidades vulnerables, porque creemos que una buena nutrición debe estar al alcance de todos.
+          We support and work directly with Andean and Amazonian farming communities in Peru. Our production model is collaborative and fair trade:
+We pay fair prices, above the market.
+We offer technical assistance and training.
+We promote the empowerment of rural women.
           </p>
         </div>
       </div>

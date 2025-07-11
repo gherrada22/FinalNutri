@@ -13,10 +13,10 @@ const Product = () => {
   ];
 
   const ingredients = [
-    { name: "Cacao Premium", benefit: "Antioxidantes y energía natural" },
-    { name: "Maca Andina", benefit: "Energía y resistencia" },
-    { name: "Avena Integral", benefit: "Fibra y saciedad" },
-    { name: "Plátano Deshidratado", benefit: "Potasio y dulzor natural" }
+    { name: "Cacao", benefit: "Antioxidantes and Natural Energy" },
+    { name: "Maca", benefit: "Energy and Stamina" },
+    { name: "Oats", benefit: "Fiber and Satiely" },
+    { name: "Banana", benefit: "Potassium and Natural Sweetness" }
   ];
 
   return (
@@ -26,13 +26,13 @@ const Product = () => {
         {/* Section Header */}
         <div className="text-center mb-16 animate-slide-up">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" variant="outline">
-            Nuestro Producto Estrella
+          Our Star Product
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Superfood Nutritional Shake
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            La mezcla perfecta de superalimentos que tu cuerpo necesita para conquistar cada día con energía natural
+          The perfect blend of superfoods your body needs to conquer every day with natural energy
           </p>
         </div>
 
@@ -61,20 +61,22 @@ const Product = () => {
                   <Star key={i} size={20} fill="currentColor" />
                 ))}
               </div>
-              <span className="text-muted-foreground">(4.9/5 - 127 reseñas)</span>
+              <span className="text-muted-foreground">(4.9/5 - 127 reviews)</span>
             </div>
 
             <h3 className="text-3xl font-bold text-foreground mb-6">
-              Shake Nutricional Premium
+            Shake Nutricional Premium x 250gr
             </h3>
 
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Nuestro shake combina los mejores superalimentos andinos en una mezcla perfectamente balanceada. 
-              Con <strong>cacao, maca, avena y plátano deshidratado</strong>, cada porción te proporciona 
-              vitaminas B12, D y minerales esenciales como hierro y magnesio.
+            Referential Price: USD 13.00 /Unit(s)
+Minimum Quantity: 4,220 Unit(s)
+Port: MARITIMO / PE - CALLAO
+Terms of Payment: Bank transfer
             </p>
 
             {/* Benefits List */}
+           {/* 
             <div className="mb-8">
               <h4 className="font-bold text-foreground mb-4">Beneficios Principales:</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -86,29 +88,24 @@ const Product = () => {
                 ))}
               </div>
             </div>
-
+            */}
+  <p className="text-muted-foreground mb-8 leading-relaxed">
+  It is a blend of cocoa, oats, banana and maca powder with vitamin B1, B2, B6 and B12, minerals such as iron and magnesium, it is an ideal combination for your daily well-being. Free of preservatives and artificial colors.
+            </p>
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="cta" size="xl" className="flex-1">
-                <ShoppingCart className="mr-2" size={20} />
-                Comprar Ahora - S/ 25
-              </Button>
               <Button variant="outline-primary" size="xl">
                 <Zap className="mr-2" size={20} />
-                Más Información
+                Contact
               </Button>
             </div>
-
-            <p className="text-sm text-muted-foreground mt-4">
-              ✅ Envío gratis en Lima | ✅ Garantía de satisfacción | ✅ Pago seguro
-            </p>
           </div>
         </div>
 
         {/* Ingredients Section */}
         <div className="bg-primary/5 rounded-2xl p-8 lg:p-12">
           <h3 className="text-3xl font-bold text-center text-foreground mb-12">
-            Ingredientes Premium
+          Premium ingredients
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -132,11 +129,10 @@ const Product = () => {
 
           <div className="text-center mt-12">
             <p className="text-muted-foreground mb-6">
-              <strong>Modo de uso:</strong> Mezcla 1-2 cucharadas con agua, leche o tu alternativa favorita. 
-              También puedes combinarlo con fruta congelada, yogurt o frutos secos para crear comidas cremosas y personalizables.
+              <strong>Directions:</strong> Mix 1-2 scoops with water, milk or your favorite alternative. You can also combine it with frozen fruit, yogurt, or nuts to create creamy, customizable meals.
             </p>
             <Badge className="bg-primary text-primary-foreground">
-              250g | Peso neto | 2.05 oz
+              250g | Net weight | 2.05 oz
             </Badge>
           </div>
         </div>

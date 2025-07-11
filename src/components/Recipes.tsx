@@ -84,11 +84,10 @@ const Recipes = () => {
             Recetas Deliciosas
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Transforma Tu Nutriblitz
+          Transform from your Superfood Nutritional Shaker
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Descubre maneras creativas y deliciosas de disfrutar tu shake nutricional. 
-            Desde bowls energéticos hasta smoothies tropicales.
+          Discover creative and delicious ways to enjoy your nutritional shake. From energetic and tropical smoothies
           </p>
         </div>
 
